@@ -21,6 +21,6 @@ class Base(DeclarativeBase):
 
 #this is a dependency func that provides sessions to our routes
 def get_db():
-    with SessionLocal as db:
+    with SessionLocal() as db:
         yield db
 
