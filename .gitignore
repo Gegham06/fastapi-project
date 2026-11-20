@@ -18,3 +18,7 @@ wheels/
 
 # Environment variables
 .env
+
+populate_db.py
+
+populate_images/
